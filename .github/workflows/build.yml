@@ -27,6 +27,9 @@ jobs:
       with:
         java-version: '11'
         java-package: jdk
+ 
+    - name: Print Java Version
+      run: java -version
 
     - name: Setup Clojure
       uses: DeLaGuardo/setup-clojure@master
